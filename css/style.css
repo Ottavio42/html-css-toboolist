@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Kanit', sans-serif;
 }
 body{
     background-color: #f6f8f9;
@@ -11,6 +12,7 @@ body{
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 .logo-img{
     vertical-align: middle;
@@ -22,4 +24,85 @@ body{
 .container{
     max-width: 900px;
 	margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.bottone1,.bottone2{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.bottone1{
+    background-color: #47ADF1;
+    color: #ffffff;
+    border-color: #ffffff;
+
+}
+.bottone2{
+    background-color: #ffffff;
+    color: #cdd2d6;
+    border-color: #cdd2d6;
+}
+ul {
+	list-style: none;
+}
+li{
+    padding: 10px;
+}
+.fatto{
+    border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+    border-style: solid;
+    border-color: #65c0a9;
+    color: #65c0a9;
+    display: inline-block;
+    margin: 5px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.non-fatto{
+    border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+    border-style: solid;
+    border-color: #eb5952;
+    color: #eb5952;
+    display: inline-block;
+    margin: 5px;
+}
+.categoria{
+    border-radius: 10px;
+    padding: 8px;
+    color: #ffffff;
+    margin: 5px;
+}
+#editorial{
+    background-color: #45abea;
+    
+}
+
+#q1-goals{ 
+    background-color: #9c72e4;
+}
+#recruiting{
+    background-color: #64c0a9;
+}
+#mobile{
+    background-color: #f29e33;
+}
+#website{
+    background-color: #d863a1;
+}
+#sales{
+    background-color: #b0c926;
 }

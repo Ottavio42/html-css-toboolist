@@ -6,19 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <!-- Intestazione -->
         <div class="intestazione">
             <img class="logo-img" src="img/Logo.png" alt="logo-toboolist">
             <h1 class="logo-text">Toboolist</h1>
         </div>
+        <!-- /Intestazione -->
     </header>
     <main>
-        <div class="container">
-            
+        <!-- Bottoni -->
+        <div class="container">           
+            <button class="bottone1">Add Task</button>
+            <button class="bottone2">Add Section</button>
         </div>
-    </main>
-    <footer></footer>    
+        <!-- Bottoni -->
+        <!-- Corpo liste -->
+        <div class="container">
+            <!-- prima lista -->
+            <section>
+                <h2>&#9662;New Task</h2>
+                <ul>
+                    <li><span class="fatto">&#10004;</span>   Quarterly Newsletter   <span class="categoria" id="editorial">Editorial</span></li>
+                </ul>
+            </section>
+            <!-- /prima lista -->
+            <!-- seconda lista -->
+            <section>
+                <h2>&#9662;Today</h2>
+                <ul>
+                    <li><span class="fatto">&#10004;</span> Recruiting blog post  <span class="categoria" id="editorial">Editorial</span></li>
+
+                    <li><span class="fatto">&#10004;</span> Mobile app luaunch<span class="categoria" id="q1-goals">Q1-goals</span></li>
+
+                    <li><span class="non-fatto">&#10006;</span>Interview John H. <span class="categoria" id="recruiting">Recruiting</span></li>
+
+                    <li><span class="fatto">&#10004;</span>Summit update to mobile strefontsss<span class="categoria" id="mobile">Mobile</span></li>
+                </ul>
+            </section>
+            <!-- seconda lista -->
+            <!-- Terza lista -->
+            <section>
+                <h2>&#9662;Upcoming</h2>
+                <ul>
+                    <li><span class="non-fatto">&#10006;</span>Schedule meeting with Alex</li>
+                    <li><span class="fatto">&#10004;</span>Homepage Refresh<span class="categoria" id="website">Website</span></li>
+
+                    <li><span class="fatto">&#10004;</span>Onboard new sales team members<span class="categoria" id="sales">Sales</span></li>
+                    <li><span class="fatto">&#10004;</span> Review editorial<span class="categoria" id="editorial">Editorial</span></li>
+                </ul>
+            </section>
+            <!-- /Terza lista -->
+           
+        </div>
+        <!-- /Corpo liste -->
+    </main>   
 </body>
 </html>
